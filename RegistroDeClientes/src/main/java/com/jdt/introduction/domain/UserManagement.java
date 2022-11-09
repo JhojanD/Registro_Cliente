@@ -73,18 +73,13 @@ public class UserManagement {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("UserManagement{");
-        sb.append("id:"+id);
-        sb.append(" Cedula:"+identificationCard);
-        sb.append(" Nombre:"+name);
-        sb.append(" Correo Electronico:"+email);
-        sb.append(" Telefono:"+phone);
-        sb.append('}');
-        return sb.toString();
+        return "UserManagement{ id:" +id+", Cedula:"+identificationCard
+                +", Nombre:"+name+", Correo Electronico:"+ email
+                +", Telefono"+phone+ '}';
     }
 
-    
+
+
 
     
     
